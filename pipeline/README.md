@@ -2,7 +2,7 @@
 Pipeline are saved as `JSON`. You can view an example of a pipeline at the end of this file. The only required field is `Graph`. This field contains a subfield `Nodes` (which is required) and a subfield `Edges` (which is optionnal).
 
 ## `Nodes` field
-Each node is a process that has a field `Name` and a field `Parameters`. You can find a template for each process [here](./json_templates.md).
+Each node is a process that has a field `Name` and a field `Parameters`. You can find a template for each process [here](./process_json_templates.md).
 
 ## `Edges` field
 The `Edges` field is optionnal. If this field is missing, each process will be connected to the next one. This is the simplest graph possible.
