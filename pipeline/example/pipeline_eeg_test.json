@@ -1,7 +1,7 @@
 {
   "Name": "pipeline_eeg_test",
   "Extension": ".json",
-  "Date": "03-Jun-2023 22:16:52",
+  "Date": "04-Jun-2023 15:42:48",
   "Graph": {
     "Nodes": [
       {
@@ -99,22 +99,30 @@
       }
     ],
     "Edges": [
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        3
-      ],
-      [
-        3,
-        4
-      ],
-      [
-        4,
-        5
-      ]
+      {
+        "EndNodes": [
+          1,
+          2
+        ]
+      },
+      {
+        "EndNodes": [
+          2,
+          3
+        ]
+      },
+      {
+        "EndNodes": [
+          3,
+          4
+        ]
+      },
+      {
+        "EndNodes": [
+          4,
+          5
+        ]
+      }
     ]
   }
 }
