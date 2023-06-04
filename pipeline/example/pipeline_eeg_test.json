@@ -1,178 +1,61 @@
 {
   "Name": "pipeline_eeg_test",
   "Extension": ".json",
-  "Date": "03-Jun-2023 17:23:08",
+  "Date": "03-Jun-2023 20:39:03",
   "Graph": {
     "Nodes": [
       {
-        "Name": "process_notch",
-        "Parameters": {
-          "sensortypes": "EEG",
-          "freqlist": [
-            60,
-            120,
-            180
-          ],
-          "cutoffW": 1,
-          "useold": 0,
-          "display": []
-        }
-      },
-      {
-        "Name": "process_psd",
-        "Parameters": {
-          "timewindow": [],
-          "win_length": 10,
-          "win_overlap": 50,
-          "units": "physical",
-          "clusters": [],
-          "scoutfunc": 1,
-          "sensortypes": "EEG",
-          "win_std": 0,
-          "sep": [],
-          "edit": {
-            "Comment": "Power",
-            "TimeBands": [],
-            "Freqs": [],
-            "ClusterFuncTime": "none",
-            "Measure": "power",
-            "Output": "all",
-            "SaveKernel": 0
+        "Process": {
+          "Name": "process_notch",
+          "Parameters": {
+            "sensortypes": "EEG",
+            "freqlist": [
+              60,
+              120,
+              180
+            ],
+            "cutoffW": 1,
+            "useold": 0,
+            "display": []
           }
         }
       },
       {
-        "Name": "process_snapshot",
-        "Parameters": {
-          "type": "spectrum",
-          "modality": 1,
-          "orient": 1,
-          "time": 0,
-          "contact_time": [
-            0,
-            0.1
-          ],
-          "contact_nimage": 12,
-          "threshold": 30,
-          "surfsmooth": 30,
-          "freq": 0,
-          "rowname": "",
-          "mni": [
-            0,
-            0,
-            0
-          ],
-          "Comment": "Power spectrum density"
-        }
-      },
-      {
-        "Name": "process_bandpass",
-        "Parameters": {
-          "sensortypes": "EEG",
-          "label1": [],
-          "highpass": 0.5,
-          "lowpass": 80,
-          "tranband": 0,
-          "attenuation": "strict",
-          "ver": "2019",
-          "mirror": 0,
-          "display": []
-        }
-      },
-      {
-        "Name": "process_psd",
-        "Parameters": {
-          "timewindow": [],
-          "win_length": 10,
-          "win_overlap": 50,
-          "units": "physical",
-          "clusters": [],
-          "scoutfunc": 1,
-          "sensortypes": "EEG",
-          "win_std": 0,
-          "sep": [],
-          "edit": {
-            "Comment": "Power",
-            "TimeBands": [],
-            "Freqs": [],
-            "ClusterFuncTime": "none",
-            "Measure": "power",
-            "Output": "all",
-            "SaveKernel": 0
+        "Process": {
+          "Name": "process_bandpass",
+          "Parameters": {
+            "sensortypes": "EEG",
+            "label1": [],
+            "highpass": 0.5,
+            "lowpass": 80,
+            "tranband": 0,
+            "attenuation": "strict",
+            "ver": "2019",
+            "mirror": 0,
+            "display": []
           }
         }
       },
       {
-        "Name": "process_snapshot",
-        "Parameters": {
-          "type": "spectrum",
-          "modality": 1,
-          "orient": 1,
-          "time": 0,
-          "contact_time": [
-            0,
-            0.1
-          ],
-          "contact_nimage": 12,
-          "threshold": 30,
-          "surfsmooth": 30,
-          "freq": 0,
-          "rowname": "",
-          "mni": [
-            0,
-            0,
-            0
-          ],
-          "Comment": "Power spectrum density"
+        "Process": {
+          "Name": "process_eegref",
+          "Parameters": {
+            "title": [],
+            "eegref": "AVERAGE",
+            "sensortypes": "EEG"
+          }
         }
       }
     ],
     "Edges": [
-      {
-        "EndNodes": [
-          1,
-          2
-        ],
-        "Edges": {
-          "Active": true
-        }
-      },
-      {
-        "EndNodes": [
-          1,
-          4
-        ],
-        "Edges": {
-          "Active": true
-        }
-      },
-      {
-        "EndNodes": [
-          2,
-          3
-        ],
-        "Edges": {
-          "Active": true
-        }
-      },
-      {
-        "EndNodes": [
-          4,
-          5
-        ],
-        "Edges": {
-          "Active": true
-        }
-      },
-      {
-        "EndNodes": [
-          5,
-          6
-        ],
-        "Edges": {
-          "Active": true
-        }
-      }
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
     ]
   }
 }
