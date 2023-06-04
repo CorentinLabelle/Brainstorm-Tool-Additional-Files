@@ -31,4 +31,4 @@ Process_5-->Process_6
 ### Example of a pipeline
 
 
-You can find an example of a pipeline ./example/pipeline_eeg_test.json.
+You can find an example of a pipeline [here](./example/pipeline_eeg_test.json).
