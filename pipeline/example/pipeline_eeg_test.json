@@ -1,7 +1,7 @@
 {
   "Name": "pipeline_eeg_test",
   "Extension": ".json",
-  "Date": "04-Jun-2023 15:42:48",
+  "Date": "14-Jun-2023 12:02:34",
   "Graph": {
     "Nodes": [
       {
@@ -70,32 +70,6 @@
             }
           }
         }
-      },
-      {
-        "Process": {
-          "Name": "process_snapshot",
-          "Parameters": {
-            "type": "spectrum",
-            "modality": 1,
-            "orient": 1,
-            "time": 0,
-            "contact_time": [
-              0,
-              0.1
-            ],
-            "contact_nimage": 12,
-            "threshold": 30,
-            "surfsmooth": 30,
-            "freq": 0,
-            "rowname": "",
-            "mni": [
-              0,
-              0,
-              0
-            ],
-            "Comment": "Power spectrum density"
-          }
-        }
       }
     ],
     "Edges": [
@@ -115,12 +89,6 @@
         "EndNodes": [
           3,
           4
-        ]
-      },
-      {
-        "EndNodes": [
-          4,
-          5
         ]
       }
     ]
