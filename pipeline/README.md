@@ -1,6 +1,6 @@
 # How To a Create Pipeline
 
-An [example of a pipeline](./example/pipeline_eeg_test.json) can be used as a starting point (before adding or removing processes). A [list of process](./process_documentation.md) and a [template](./process_json_templates.md) for each process is avaible on this repo.
+An [example of a pipeline](./example/pipeline_eeg_test.json) can be used as a starting point (before adding or removing processes). A [list of process](./process_documentation.md) and a [template for each process](./process_json_templates.md) is avaible on this repo.
 
 Pipeline are saved as `JSON`. The only required field is `Graph`. This field contains a subfield `Nodes` (which is required) and a subfield `Edges` (which is optionnal).
 
