@@ -1,14 +1,9 @@
-# JSON Templates
-Here is the json template for every process.
-
-```json
-
-{
+[{
   "Name": "process_absolute",
   "Parameters": {
     "sensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_add_tag",
   "Parameters": {
@@ -17,7 +12,7 @@ Here is the json template for every process.
     "label_warning": [],
     "label_warning2": []
   }
-}
+},
 {
   "Name": "process_adjust_coordinates",
   "Parameters": {
@@ -29,7 +24,7 @@ Here is the json template for every process.
     "remove": 0,
     "display": 0
   }
-}
+},
 {
   "Name": "process_arima",
   "Parameters": {
@@ -37,7 +32,7 @@ Here is the json template for every process.
     "order": 5,
     "sensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_average",
   "Parameters": {
@@ -52,7 +47,7 @@ Here is the json template for every process.
     "matchrows": 1,
     "iszerobad": 1
   }
-}
+},
 {
   "Name": "process_average_ab",
   "Parameters": {
@@ -60,13 +55,13 @@ Here is the json template for every process.
     "weightedlabel": [],
     "scalenormalized": 0
   }
-}
+},
 {
   "Name": "process_average_freq",
   "Parameters": {
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_average_rows",
   "Parameters": {
@@ -76,7 +71,7 @@ Here is the json template for every process.
     "avgfunc": 1,
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_average_time",
   "Parameters": {
@@ -84,7 +79,7 @@ Here is the json template for every process.
     "label2": [],
     "avg_func": "mean"
   }
-}
+},
 {
   "Name": "process_bandpass",
   "Parameters": {
@@ -98,7 +93,7 @@ Here is the json template for every process.
     "mirror": 0,
     "display": []
   }
-}
+},
 {
   "Name": "process_bandstop",
   "Parameters": {
@@ -107,7 +102,7 @@ Here is the json template for every process.
     "freqwidth": 1.5,
     "display": []
   }
-}
+},
 {
   "Name": "process_baseline",
   "Parameters": {
@@ -116,7 +111,7 @@ Here is the json template for every process.
     "sensortypes": "MEG, EEG",
     "method": "bl"
   }
-}
+},
 {
   "Name": "process_baseline_norm",
   "Parameters": {
@@ -127,7 +122,7 @@ Here is the json template for every process.
     "method": "zscore",
     "label3": []
   }
-}
+},
 {
   "Name": "process_baseline_norm2",
   "Parameters": {
@@ -137,7 +132,7 @@ Here is the json template for every process.
     "method": "zscore",
     "label3": []
   }
-}
+},
 {
   "Name": "process_canoltymap",
   "Parameters": {
@@ -158,7 +153,7 @@ Here is the json template for every process.
     "label_out": [],
     "save_erp": 1
   }
-}
+},
 {
   "Name": "process_canoltymap2",
   "Parameters": {
@@ -178,7 +173,7 @@ Here is the json template for every process.
     "label_out": [],
     "save_erp": 1
   }
-}
+},
 {
   "Name": "process_channel_addcluster",
   "Parameters": {
@@ -187,7 +182,7 @@ Here is the json template for every process.
       ""
     ]
   }
-}
+},
 {
   "Name": "process_channel_addloc",
   "Parameters": {
@@ -204,38 +199,38 @@ Here is the json template for every process.
     ],
     "fiducials": []
   }
-}
+},
 {
   "Name": "process_channel_biosemi",
   "Parameters": {
     "title": []
   }
-}
+},
 {
   "Name": "process_channel_project",
   "Parameters": {
     "sensortypes": "EEG"
   }
-}
+},
 {
   "Name": "process_channel_setbad",
   "Parameters": {
     "sensortypes": ""
   }
-}
+},
 {
   "Name": "process_channel_setseeg",
   "Parameters": {
     "newtype": "SEEG"
   }
-}
+},
 {
   "Name": "process_channel_settype",
   "Parameters": {
     "sensortypes": "",
     "newtype": ""
   }
-}
+},
 {
   "Name": "process_cohere1",
   "Parameters": {
@@ -272,7 +267,7 @@ Here is the json template for every process.
     "avgwinoverlap": 50,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_cohere1n",
   "Parameters": {
@@ -307,7 +302,7 @@ Here is the json template for every process.
     "avgwinoverlap": 50,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_cohere2",
   "Parameters": {
@@ -346,32 +341,32 @@ Here is the json template for every process.
     "avgwinoverlap": 50,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_combine_recordings",
   "Parameters": {
     "condition": "Combined"
   }
-}
+},
 {
   "Name": "process_compress_sym",
   "Parameters": {
     "method": 1,
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_concat",
   "Parameters": {
     "label1": []
   }
-}
+},
 {
   "Name": "process_concat_rows",
   "Parameters": {
     "label1": []
   }
-}
+},
 {
   "Name": "process_convert_raw_to_lfp",
   "Parameters": {
@@ -388,7 +383,7 @@ Here is the json template for every process.
     "despikeLFP": 1,
     "parallel": 1
   }
-}
+},
 {
   "Name": "process_corr1",
   "Parameters": {
@@ -420,7 +415,7 @@ Here is the json template for every process.
     "scalarprod": 0,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_corr1n",
   "Parameters": {
@@ -450,7 +445,7 @@ Here is the json template for every process.
     "scalarprod": 0,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_corr2",
   "Parameters": {
@@ -484,13 +479,13 @@ Here is the json template for every process.
     "scalarprod": 0,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_ctf_convert",
   "Parameters": {
     "rectype": 2
   }
-}
+},
 {
   "Name": "process_cutstim",
   "Parameters": {
@@ -503,7 +498,7 @@ Here is the json template for every process.
     "sensortypes": "MEG, EEG",
     "method": "linear"
   }
-}
+},
 {
   "Name": "process_decoding_maxcorr",
   "Parameters": {
@@ -515,7 +510,7 @@ Here is the json template for every process.
     "method": 1,
     "model": "maxcorr"
   }
-}
+},
 {
   "Name": "process_decoding_svm",
   "Parameters": {
@@ -528,13 +523,13 @@ Here is the json template for every process.
     "method": 1,
     "model": "svm"
   }
-}
+},
 {
   "Name": "process_delete",
   "Parameters": {
     "target": 1
   }
-}
+},
 {
   "Name": "process_detectbad",
   "Parameters": {
@@ -570,7 +565,7 @@ Here is the json template for every process.
     "win_length": 1,
     "rejectmode": 2
   }
-}
+},
 {
   "Name": "process_detectbad_mad",
   "Parameters": {
@@ -586,18 +581,18 @@ Here is the json template for every process.
     "sep2": [],
     "abs_gradient": 1
   }
-}
+},
 {
   "Name": "process_detrend",
   "Parameters": {
     "timewindow": [],
     "sensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_diff_ab",
   "Parameters": {}
-}
+},
 {
   "Name": "process_diff_mean",
   "Parameters": {
@@ -609,11 +604,11 @@ Here is the json template for every process.
     "iszerobad": 1,
     "label_norm": []
   }
-}
+},
 {
   "Name": "process_diff_norm",
   "Parameters": {}
-}
+},
 {
   "Name": "process_dipole_scanning",
   "Parameters": {
@@ -621,14 +616,14 @@ Here is the json template for every process.
     "sep2": [],
     "scouts": []
   }
-}
+},
 {
   "Name": "process_duplicate",
   "Parameters": {
     "target": 1,
     "tag": "_copy"
   }
-}
+},
 {
   "Name": "process_dwi2dti",
   "Parameters": {
@@ -648,7 +643,7 @@ Here is the json template for every process.
     ],
     "note": []
   }
-}
+},
 {
   "Name": "process_eeg_interpbad",
   "Parameters": {
@@ -656,7 +651,7 @@ Here is the json template for every process.
     "maxdist": 5,
     "sensortypes": "EEG"
   }
-}
+},
 {
   "Name": "process_eegref",
   "Parameters": {
@@ -664,7 +659,7 @@ Here is the json template for every process.
     "eegref": "",
     "sensortypes": "EEG"
   }
-}
+},
 {
   "Name": "process_epileptogenicity",
   "Parameters": {
@@ -677,7 +672,7 @@ Here is the json template for every process.
     "thdelay": 0.05,
     "type": "volume"
   }
-}
+},
 {
   "Name": "process_evt_classify",
   "Parameters": {
@@ -685,20 +680,20 @@ Here is the json template for every process.
     "sensortypes": "MEG, EEG",
     "ndims": 10
   }
-}
+},
 {
   "Name": "process_evt_combine",
   "Parameters": {
     "combine": "A_AB, B_AB, A, B, A_AC, C_AC, A, C",
     "dt": 1
   }
-}
+},
 {
   "Name": "process_evt_delete",
   "Parameters": {
     "eventname": ""
   }
-}
+},
 {
   "Name": "process_evt_detect",
   "Parameters": {
@@ -718,7 +713,7 @@ Here is the json template for every process.
     "isnoisecheck": 1,
     "isclassify": 1
   }
-}
+},
 {
   "Name": "process_evt_detect_analog",
   "Parameters": {
@@ -738,7 +733,7 @@ Here is the json template for every process.
     "ispullup": 1,
     "isclassify": 0
   }
-}
+},
 {
   "Name": "process_evt_detect_badsegment",
   "Parameters": {
@@ -748,7 +743,7 @@ Here is the json template for every process.
     "isLowFreq": 1,
     "isHighFreq": 1
   }
-}
+},
 {
   "Name": "process_evt_detect_chpi",
   "Parameters": {
@@ -756,7 +751,7 @@ Here is the json template for every process.
     "channelname": "STI201",
     "method": "off"
   }
-}
+},
 {
   "Name": "process_evt_detect_ecg",
   "Parameters": {
@@ -765,7 +760,7 @@ Here is the json template for every process.
     "timewindow": [],
     "eventname": "cardiac"
   }
-}
+},
 {
   "Name": "process_evt_detect_eog",
   "Parameters": {
@@ -774,7 +769,7 @@ Here is the json template for every process.
     "timewindow": [],
     "eventname": "blink"
   }
-}
+},
 {
   "Name": "process_evt_detect_threshold",
   "Parameters": {
@@ -793,7 +788,7 @@ Here is the json template for every process.
     "isAbsolute": 0,
     "isDCremove": 0
   }
-}
+},
 {
   "Name": "process_evt_extended",
   "Parameters": {
@@ -803,7 +798,7 @@ Here is the json template for every process.
       0.2
     ]
   }
-}
+},
 {
   "Name": "process_evt_groupname",
   "Parameters": {
@@ -812,13 +807,13 @@ Here is the json template for every process.
     "order": "first",
     "delete": 0
   }
-}
+},
 {
   "Name": "process_evt_grouptime",
   "Parameters": {
     "combine": []
   }
-}
+},
 {
   "Name": "process_evt_head_motion",
   "Parameters": {
@@ -828,7 +823,7 @@ Here is the json template for every process.
     "fiterror": 0,
     "fitthresh": 3
   }
-}
+},
 {
   "Name": "process_evt_import",
   "Parameters": {
@@ -839,7 +834,7 @@ Here is the json template for every process.
     "evtname": "New",
     "delete": 0
   }
-}
+},
 {
   "Name": "process_evt_merge",
   "Parameters": {
@@ -848,7 +843,7 @@ Here is the json template for every process.
     "newname": "",
     "delete": 1
   }
-}
+},
 {
   "Name": "process_evt_multiresp",
   "Parameters": {
@@ -857,7 +852,7 @@ Here is the json template for every process.
     "action": 1,
     "rename": 0
   }
-}
+},
 {
   "Name": "process_evt_read",
   "Parameters": {
@@ -868,7 +863,7 @@ Here is the json template for every process.
     "zero": 0,
     "min_duration": 0
   }
-}
+},
 {
   "Name": "process_evt_remove_simult",
   "Parameters": {
@@ -877,7 +872,7 @@ Here is the json template for every process.
     "dt": 0.25,
     "rename": 0
   }
-}
+},
 {
   "Name": "process_evt_rename",
   "Parameters": {
@@ -885,14 +880,14 @@ Here is the json template for every process.
     "dest": "",
     "label": []
   }
-}
+},
 {
   "Name": "process_evt_simple",
   "Parameters": {
     "eventname": "",
     "method": "start"
   }
-}
+},
 {
   "Name": "process_evt_timeoffset",
   "Parameters": {
@@ -906,7 +901,7 @@ Here is the json template for every process.
     "suffix": "",
     "comment1": []
   }
-}
+},
 {
   "Name": "process_evt_transfer",
   "Parameters": {
@@ -914,7 +909,7 @@ Here is the json template for every process.
     "src": "5",
     "dest": "E5"
   }
-}
+},
 {
   "Name": "process_export_bids",
   "Parameters": {
@@ -934,7 +929,7 @@ Here is the json template for every process.
     "eegreference": "Cz",
     "edit": []
   }
-}
+},
 {
   "Name": "process_export_file",
   "Parameters": {
@@ -960,7 +955,7 @@ Here is the json template for every process.
       ""
     ]
   }
-}
+},
 {
   "Name": "process_export_spmsurf",
   "Parameters": {
@@ -974,7 +969,7 @@ Here is the json template for every process.
     "freq_export": [],
     "isabs": 1
   }
-}
+},
 {
   "Name": "process_export_spmvol",
   "Parameters": {
@@ -995,7 +990,7 @@ Here is the json template for every process.
     "isabs": 1,
     "iscut": 0
   }
-}
+},
 {
   "Name": "process_extract_cluster",
   "Parameters": {
@@ -1004,20 +999,20 @@ Here is the json template for every process.
     "concatenate": 1,
     "save": []
   }
-}
+},
 {
   "Name": "process_extract_fooof",
   "Parameters": {
     "label1": [],
     "fooof": 1
   }
-}
+},
 {
   "Name": "process_extract_headdist",
   "Parameters": {
     "warning": []
   }
-}
+},
 {
   "Name": "process_extract_max",
   "Parameters": {
@@ -1028,7 +1023,7 @@ Here is the json template for every process.
     "labelout": [],
     "output": "amplitude"
   }
-}
+},
 {
   "Name": "process_extract_maxfreq",
   "Parameters": {
@@ -1039,7 +1034,7 @@ Here is the json template for every process.
     "output": "amplitude",
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_extract_pthresh",
   "Parameters": {
@@ -1052,7 +1047,7 @@ Here is the json template for every process.
     "control2": 1,
     "control3": 1
   }
-}
+},
 {
   "Name": "process_extract_pthresh2",
   "Parameters": {
@@ -1065,7 +1060,7 @@ Here is the json template for every process.
     "control2": 1,
     "control3": 1
   }
-}
+},
 {
   "Name": "process_extract_scout",
   "Parameters": {
@@ -1092,13 +1087,13 @@ Here is the json template for every process.
     "addrowcomment": [],
     "addfilecomment": []
   }
-}
+},
 {
   "Name": "process_extract_time",
   "Parameters": {
     "timewindow": []
   }
-}
+},
 {
   "Name": "process_extract_values",
   "Parameters": {
@@ -1117,7 +1112,7 @@ Here is the json template for every process.
     "dim": 2,
     "Comment": ""
   }
-}
+},
 {
   "Name": "process_fem_mesh",
   "Parameters": {
@@ -1141,7 +1136,7 @@ Here is the json template for every process.
     "zefUseGPU": 0,
     "zefAdvancedInterface": 0
   }
-}
+},
 {
   "Name": "process_fem_tensors",
   "Parameters": {
@@ -1150,7 +1145,7 @@ Here is the json template for every process.
       "FemCond": []
     }
   }
-}
+},
 {
   "Name": "process_fft",
   "Parameters": {
@@ -1161,7 +1156,7 @@ Here is the json template for every process.
     "sensortypes": "MEG, EEG",
     "avgoutput": 1
   }
-}
+},
 {
   "Name": "process_fix_headcoils",
   "Parameters": {
@@ -1170,7 +1165,7 @@ Here is the json template for every process.
     ],
     "BadCoil": 1
   }
-}
+},
 {
   "Name": "process_fooof",
   "Parameters": {
@@ -1188,7 +1183,7 @@ Here is the json template for every process.
     "sortparam": "frequency",
     "sortbands": []
   }
-}
+},
 {
   "Name": "process_ft_channelrepair",
   "Parameters": {
@@ -1197,7 +1192,7 @@ Here is the json template for every process.
     "maxdist": 4,
     "sensortypes": "EEG"
   }
-}
+},
 {
   "Name": "process_ft_dipolefitting",
   "Parameters": {
@@ -1212,7 +1207,7 @@ Here is the json template for every process.
     "label3": [],
     "filetag": ""
   }
-}
+},
 {
   "Name": "process_ft_freqstatistics",
   "Parameters": {
@@ -1235,7 +1230,7 @@ Here is the json template for every process.
     "minnbchan": 0,
     "clusteralpha": 0.05
   }
-}
+},
 {
   "Name": "process_ft_mtmconvol",
   "Parameters": {
@@ -1252,7 +1247,7 @@ Here is the json template for every process.
     "measure": "power",
     "avgoutput": 1
   }
-}
+},
 {
   "Name": "process_ft_prepare_leadfield",
   "Parameters": {
@@ -1266,7 +1261,7 @@ Here is the json template for every process.
     "eeg": "concentricspheres",
     "verbose": 0
   }
-}
+},
 {
   "Name": "process_ft_prepare_mesh_hexa",
   "Parameters": {
@@ -1274,7 +1269,7 @@ Here is the json template for every process.
     "downsample": 3,
     "nodeshift": 0.3
   }
-}
+},
 {
   "Name": "process_ft_scalpcurrentdensity",
   "Parameters": {
@@ -1289,7 +1284,7 @@ Here is the json template for every process.
     "degree": 20,
     "label": []
   }
-}
+},
 {
   "Name": "process_ft_sourceanalysis",
   "Parameters": {
@@ -1297,7 +1292,7 @@ Here is the json template for every process.
     "method": "mne",
     "sensortype": "MEG"
   }
-}
+},
 {
   "Name": "process_ft_sourceanalysis_dics",
   "Parameters": {
@@ -1316,7 +1311,7 @@ Here is the json template for every process.
     "maxfreq": 40,
     "showtfr": 1
   }
-}
+},
 {
   "Name": "process_ft_sourcestatistics",
   "Parameters": {
@@ -1338,7 +1333,7 @@ Here is the json template for every process.
     "minnbchan": 0,
     "clusteralpha": 0.05
   }
-}
+},
 {
   "Name": "process_ft_timelockstatistics",
   "Parameters": {
@@ -1361,7 +1356,7 @@ Here is the json template for every process.
     "minnbchan": 0,
     "clusteralpha": 0.05
   }
-}
+},
 {
   "Name": "process_ft_volumesegment",
   "Parameters": {
@@ -1380,7 +1375,7 @@ Here is the json template for every process.
     "nvertskull": 1922,
     "nvertscalp": 1922
   }
-}
+},
 {
   "Name": "process_generate_bem",
   "Parameters": {
@@ -1392,14 +1387,14 @@ Here is the json template for every process.
     "thickness": 4,
     "method": "brainstorm"
   }
-}
+},
 {
   "Name": "process_generate_canonical",
   "Parameters": {
     "subjectname": "",
     "resolution": 3
   }
-}
+},
 {
   "Name": "process_generate_head",
   "Parameters": {
@@ -1408,11 +1403,11 @@ Here is the json template for every process.
     "erodefactor": 0,
     "fillfactor": 2
   }
-}
+},
 {
   "Name": "process_gradnorm",
   "Parameters": {}
-}
+},
 {
   "Name": "process_granger1",
   "Parameters": {
@@ -1444,7 +1439,7 @@ Here is the json template for every process.
     "grangerorder": 10,
     "outputmode": 1
   }
-}
+},
 {
   "Name": "process_granger1n",
   "Parameters": {
@@ -1472,7 +1467,7 @@ Here is the json template for every process.
     "grangerorder": 10,
     "outputmode": 1
   }
-}
+},
 {
   "Name": "process_granger2",
   "Parameters": {
@@ -1504,7 +1499,7 @@ Here is the json template for every process.
     "grangerorder": 10,
     "outputmode": 1
   }
-}
+},
 {
   "Name": "process_headmodel",
   "Parameters": {
@@ -1587,7 +1582,7 @@ Here is the json template for every process.
     },
     "channelfile": ""
   }
-}
+},
 {
   "Name": "process_headmodel_exclusionzone",
   "Parameters": {
@@ -1595,7 +1590,7 @@ Here is the json template for every process.
     "modality": "SEEG",
     "exclusionradius": 3
   }
-}
+},
 {
   "Name": "process_headpoints_add",
   "Parameters": {
@@ -1606,21 +1601,21 @@ Here is the json template for every process.
     "fixunits": 1,
     "vox2ras": 1
   }
-}
+},
 {
   "Name": "process_headpoints_refine",
   "Parameters": {
     "title": [],
     "tolerance": 0
   }
-}
+},
 {
   "Name": "process_headpoints_remove",
   "Parameters": {
     "title": [],
     "zlimit": 0
   }
-}
+},
 {
   "Name": "process_henv1",
   "Parameters": {
@@ -1657,7 +1652,7 @@ Here is the json template for every process.
     "parallel": 0,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_henv1n",
   "Parameters": {
@@ -1692,7 +1687,7 @@ Here is the json template for every process.
     "parallel": 0,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_henv2",
   "Parameters": {
@@ -1731,7 +1726,7 @@ Here is the json template for every process.
     "parallel": 0,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_hilbert",
   "Parameters": {
@@ -1743,7 +1738,7 @@ Here is the json template for every process.
     "normalize": "none",
     "mirror": 0
   }
-}
+},
 {
   "Name": "process_ica",
   "Parameters": {
@@ -1768,7 +1763,7 @@ Here is the json template for every process.
     "icasort": "EOG, ECG",
     "saveerp": 0
   }
-}
+},
 {
   "Name": "process_ica2",
   "Parameters": {
@@ -1794,7 +1789,7 @@ Here is the json template for every process.
     "icasort": "EOG, ECG",
     "saveerp": 0
   }
-}
+},
 {
   "Name": "process_import_anatomy",
   "Parameters": {
@@ -1836,7 +1831,7 @@ Here is the json template for every process.
       0
     ]
   }
-}
+},
 {
   "Name": "process_import_bids",
   "Parameters": {
@@ -1851,7 +1846,7 @@ Here is the json template for every process.
     "groupsessions": 1,
     "channelalign": 1
   }
-}
+},
 {
   "Name": "process_import_channel",
   "Parameters": {
@@ -1865,7 +1860,7 @@ Here is the json template for every process.
     "fixunits": 1,
     "vox2ras": 1
   }
-}
+},
 {
   "Name": "process_import_data_epoch",
   "Parameters": {
@@ -1888,7 +1883,7 @@ Here is the json template for every process.
     "baseline": [],
     "blsensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_import_data_event",
   "Parameters": {
@@ -1918,7 +1913,7 @@ Here is the json template for every process.
     "baseline": [],
     "blsensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_import_data_raw",
   "Parameters": {
@@ -1932,7 +1927,7 @@ Here is the json template for every process.
     "channelalign": 1,
     "evtmode": "value"
   }
-}
+},
 {
   "Name": "process_import_data_time",
   "Parameters": {
@@ -1955,7 +1950,7 @@ Here is the json template for every process.
     "baseline": [],
     "blsensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_import_mri",
   "Parameters": {
@@ -1996,7 +1991,7 @@ Here is the json template for every process.
       0
     ]
   }
-}
+},
 {
   "Name": "process_import_surfaces",
   "Parameters": {
@@ -2025,7 +2020,7 @@ Here is the json template for every process.
     "nvertcortex": 15000,
     "nvertskull": 7000
   }
-}
+},
 {
   "Name": "process_inverse",
   "Parameters": {
@@ -2059,7 +2054,7 @@ Here is the json template for every process.
     "sep3": [],
     "output": 1
   }
-}
+},
 {
   "Name": "process_inverse_2016",
   "Parameters": {
@@ -2085,7 +2080,7 @@ Here is the json template for every process.
       "FunctionName": []
     }
   }
-}
+},
 {
   "Name": "process_inverse_2018",
   "Parameters": {
@@ -2111,7 +2106,7 @@ Here is the json template for every process.
       "FunctionName": []
     }
   }
-}
+},
 {
   "Name": "process_inverse_mem",
   "Parameters": {
@@ -2208,21 +2203,21 @@ Here is the json template for every process.
     },
     "sensortypes": "MEG, MEG MAG, MEG GRAD, EEG"
   }
-}
+},
 {
   "Name": "process_matlab_eval",
   "Parameters": {
     "matlab": "% Available variables: Data, TimeVector\n\nData = Data;\n",
     "sensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_matlab_eval2",
   "Parameters": {
     "matlab": "% Input variables: DataA, DataB, TimeVector\n% Output variables: Data, Comment, Condition\nData = DataA - DataB;\nComment = 'New file';\nCondition = 'NewCondition';",
     "sensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_megreg",
   "Parameters": {
@@ -2233,7 +2228,7 @@ Here is the json template for every process.
     "label3": [],
     "epsilon": 0.0001
   }
-}
+},
 {
   "Name": "process_mia_export_db",
   "Parameters": {
@@ -2243,7 +2238,7 @@ Here is the json template for every process.
     ],
     "sensortypes": "SEEG"
   }
-}
+},
 {
   "Name": "process_mne_maxwell",
   "Parameters": {
@@ -2270,7 +2265,7 @@ Here is the json template for every process.
       ""
     ]
   }
-}
+},
 {
   "Name": "process_mni_normalize",
   "Parameters": {
@@ -2278,21 +2273,21 @@ Here is the json template for every process.
     "method": "maff8",
     "uset2": 0
   }
-}
+},
 {
   "Name": "process_montage_apply",
   "Parameters": {
     "montage": [],
     "createchan": 1
   }
-}
+},
 {
   "Name": "process_movefile",
   "Parameters": {
     "subjectname": "NewSubject",
     "folder": "NewFolder"
   }
-}
+},
 {
   "Name": "process_mri_deface",
   "Parameters": {
@@ -2309,7 +2304,7 @@ Here is the json template for every process.
     "defacehead": 1,
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_mtrf_train",
   "Parameters": {
@@ -2319,7 +2314,7 @@ Here is the json template for every process.
     "tmin": -100,
     "tmax": 100
   }
-}
+},
 {
   "Name": "process_noise_correlation",
   "Parameters": {
@@ -2328,7 +2323,7 @@ Here is the json template for every process.
       0.2
     ]
   }
-}
+},
 {
   "Name": "process_noisecov",
   "Parameters": {
@@ -2345,7 +2340,7 @@ Here is the json template for every process.
     "copymatch": 0,
     "replacefile": 1
   }
-}
+},
 {
   "Name": "process_notch",
   "Parameters": {
@@ -2355,14 +2350,14 @@ Here is the json template for every process.
     "useold": 0,
     "display": []
   }
-}
+},
 {
   "Name": "process_nst_OM",
   "Parameters": {
     "subjectname": "",
     "fluencesCond": []
   }
-}
+},
 {
   "Name": "process_nst_cmem",
   "Parameters": {
@@ -2462,7 +2457,7 @@ Here is the json template for every process.
     "auto_neighborhood_order": 1,
     "store_sparse_results": 0
   }
-}
+},
 {
   "Name": "process_nst_cmem_fusion",
   "Parameters": {
@@ -2562,32 +2557,32 @@ Here is the json template for every process.
     "auto_neighborhood_order": 1,
     "store_sparse_results": 0
   }
-}
+},
 {
   "Name": "process_nst_combine_masks",
   "Parameters": {
     "operation": 1
   }
-}
+},
 {
   "Name": "process_nst_compute_voronoi",
   "Parameters": {
     "subjectname": "",
     "segmentation_label": 1
   }
-}
+},
 {
   "Name": "process_nst_concat_matrices",
   "Parameters": {
     "stacking_type": 2
   }
-}
+},
 {
   "Name": "process_nst_convert_to_stat",
   "Parameters": {
     "comment": ""
   }
-}
+},
 {
   "Name": "process_nst_cortical_projection",
   "Parameters": {
@@ -2597,21 +2592,21 @@ Here is the json template for every process.
     "sparse_storage": 0,
     "save_mixing_mat": 0
   }
-}
+},
 {
   "Name": "process_nst_cpt_fluences",
   "Parameters": {
     "subjectname": "",
     "fluencesCond": []
   }
-}
+},
 {
   "Name": "process_nst_dOD",
   "Parameters": {
     "option_baseline_method": 1,
     "timewindow": []
   }
-}
+},
 {
   "Name": "process_nst_dOD_SSR",
   "Parameters": {
@@ -2619,13 +2614,13 @@ Here is the json template for every process.
     "option_do_SuperficalRegression": 0,
     "option_Superfical_Channel": ""
   }
-}
+},
 {
   "Name": "process_nst_deglitch",
   "Parameters": {
     "factor_std_grad": 2.5
   }
-}
+},
 {
   "Name": "process_nst_detect_bad",
   "Parameters": {
@@ -2648,7 +2643,7 @@ Here is the json template for every process.
     "auxilary_signal": 1,
     "option_keep_unpaired": 0
   }
-}
+},
 {
   "Name": "process_nst_detect_bad_CV",
   "Parameters": {
@@ -2658,14 +2653,14 @@ Here is the json template for every process.
     "option_coefficient_variation": 1,
     "coefficient_variation": 15
   }
-}
+},
 {
   "Name": "process_nst_detrend",
   "Parameters": {
     "option_period": 200,
     "option_keep_mean": 0
   }
-}
+},
 {
   "Name": "process_nst_export_nirs",
   "Parameters": {
@@ -2674,7 +2669,7 @@ Here is the json template for every process.
       ""
     ]
   }
-}
+},
 {
   "Name": "process_nst_extract_fov_mask_cortical",
   "Parameters": {
@@ -2684,20 +2679,20 @@ Here is the json template for every process.
     "atlas": "",
     "keep_full_atlas_rois": 0
   }
-}
+},
 {
   "Name": "process_nst_extract_sensitivity_from_head_model",
   "Parameters": {
     "normalize": 0,
     "normalize_type": 1
   }
-}
+},
 {
   "Name": "process_nst_extract_ssc",
   "Parameters": {
     "separation_threshold_cm": 1.5
   }
-}
+},
 {
   "Name": "process_nst_get_data_perform_2018",
   "Parameters": {
@@ -2709,13 +2704,13 @@ Here is the json template for every process.
     "bst_dir": "/home/corentin/.brainstorm",
     "confirm_download": 0
   }
-}
+},
 {
   "Name": "process_nst_glm_contrast",
   "Parameters": {
     "Contrast": ""
   }
-}
+},
 {
   "Name": "process_nst_glm_contrast_mask",
   "Parameters": {
@@ -2731,13 +2726,13 @@ Here is the json template for every process.
     "atlas": "",
     "min_atlas_roi_size": 2
   }
-}
+},
 {
   "Name": "process_nst_glm_contrast_ttest",
   "Parameters": {
     "tail": "one+"
   }
-}
+},
 {
   "Name": "process_nst_glm_fit",
   "Parameters": {
@@ -2763,7 +2758,7 @@ Here is the json template for every process.
     "save_residuals": 0,
     "save_fit": 0
   }
-}
+},
 {
   "Name": "process_nst_glm_fit1",
   "Parameters": {
@@ -2789,14 +2784,14 @@ Here is the json template for every process.
     "save_residuals": 0,
     "save_fit": 0
   }
-}
+},
 {
   "Name": "process_nst_glm_group_subjs_zmat",
   "Parameters": {
     "keep_only_first_roi": 0,
     "normalize_with_std": 1
   }
-}
+},
 {
   "Name": "process_nst_glm_group_ttest",
   "Parameters": {
@@ -2804,7 +2799,7 @@ Here is the json template for every process.
     "output_condition": "GLM",
     "tail": "two"
   }
-}
+},
 {
   "Name": "process_nst_iir_filter",
   "Parameters": {
@@ -2817,7 +2812,7 @@ Here is the json template for every process.
     "order": 3,
     "display": []
   }
-}
+},
 {
   "Name": "process_nst_import_csv_events",
   "Parameters": {
@@ -2843,7 +2838,7 @@ Here is the json template for every process.
     "max_events": 1000,
     "confirm_importation": 1
   }
-}
+},
 {
   "Name": "process_nst_import_evt_events",
   "Parameters": {
@@ -2856,7 +2851,7 @@ Here is the json template for every process.
     "confirm_importation": 0,
     "preview": []
   }
-}
+},
 {
   "Name": "process_nst_import_head_model",
   "Parameters": {
@@ -2872,7 +2867,7 @@ Here is the json template for every process.
     "do_export_fluence_vol": 0,
     "outputdir": ""
   }
-}
+},
 {
   "Name": "process_nst_import_nirs_as_tstat",
   "Parameters": {
@@ -2883,7 +2878,7 @@ Here is the json template for every process.
     "subjectname": "",
     "condition": "nirs10"
   }
-}
+},
 {
   "Name": "process_nst_mask_from_atlas",
   "Parameters": {
@@ -2892,7 +2887,7 @@ Here is the json template for every process.
     "scout_names": "",
     "output_comment": "Atlas-based mask"
   }
-}
+},
 {
   "Name": "process_nst_mbll",
   "Parameters": {
@@ -2903,7 +2898,7 @@ Here is the json template for every process.
     "option_baseline_method": 1,
     "timewindow": []
   }
-}
+},
 {
   "Name": "process_nst_mbll_SSR",
   "Parameters": {
@@ -2914,7 +2909,7 @@ Here is the json template for every process.
     "option_do_SuperficalRegression": 0,
     "option_Superfical_Channel": ""
   }
-}
+},
 {
   "Name": "process_nst_mbll_dOD",
   "Parameters": {
@@ -2923,7 +2918,7 @@ Here is the json template for every process.
     "option_do_plp_corr": 1,
     "option_dpf_method": 2
   }
-}
+},
 {
   "Name": "process_nst_motion_correction",
   "Parameters": {
@@ -2934,14 +2929,14 @@ Here is the json template for every process.
     "citation_spline": [],
     "citation_tddr": []
   }
-}
+},
 {
   "Name": "process_nst_prefix_matrix",
   "Parameters": {
     "row_prefixes": "",
     "col_prefixes": ""
   }
-}
+},
 {
   "Name": "process_nst_remove_ssc",
   "Parameters": {
@@ -2949,7 +2944,7 @@ Here is the json template for every process.
     "SS_chan_name": "",
     "separation_threshold_cm": 1.5
   }
-}
+},
 {
   "Name": "process_nst_save_matrix_csv",
   "Parameters": {
@@ -2960,18 +2955,18 @@ Here is the json template for every process.
     "ignore_cols_all_zeros": 0,
     "ignore_rows_all_zeros": 0
   }
-}
+},
 {
   "Name": "process_nst_sci",
   "Parameters": {
     "option_low_cutoff": 0.5,
     "option_high_cutoff": 2.5
   }
-}
+},
 {
   "Name": "process_nst_separations",
   "Parameters": {}
-}
+},
 {
   "Name": "process_nst_spree",
   "Parameters": {
@@ -2987,17 +2982,17 @@ Here is the json template for every process.
     "save_full_fitted_model": 0,
     "output_fig_dir": ""
   }
-}
+},
 {
   "Name": "process_nst_sub_headmodel",
   "Parameters": {}
-}
+},
 {
   "Name": "process_nst_surfacedepth",
   "Parameters": {
     "subjectname": ""
   }
-}
+},
 {
   "Name": "process_nst_wmne",
   "Parameters": {
@@ -3008,19 +3003,19 @@ Here is the json template for every process.
     "TimeSegmentNoise": [],
     "store_sparse_results": 0
   }
-}
+},
 {
   "Name": "process_nwb_convert",
   "Parameters": {
     "rectype": 2
   }
-}
+},
 {
   "Name": "process_opposite",
   "Parameters": {
     "sensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_pac",
   "Parameters": {
@@ -3050,7 +3045,7 @@ Here is the json template for every process.
     "avgoutput": 0,
     "savemax": 0
   }
-}
+},
 {
   "Name": "process_pac_analysis",
   "Parameters": {
@@ -3058,7 +3053,7 @@ Here is the json template for every process.
     "analyze_type": 1,
     "usePhase": 0
   }
-}
+},
 {
   "Name": "process_pac_average",
   "Parameters": {
@@ -3066,7 +3061,7 @@ Here is the json template for every process.
     "analyze_type": 1,
     "usePhase": 0
   }
-}
+},
 {
   "Name": "process_pac_comod",
   "Parameters": {
@@ -3078,7 +3073,7 @@ Here is the json template for every process.
     "output_type": 1,
     "doInterp": 1
   }
-}
+},
 {
   "Name": "process_pac_dynamic",
   "Parameters": {
@@ -3105,7 +3100,7 @@ Here is the json template for every process.
     "label2": [],
     "avgoutput": 0
   }
-}
+},
 {
   "Name": "process_pac_dynamic_sur2",
   "Parameters": {
@@ -3132,7 +3127,7 @@ Here is the json template for every process.
     "label2": [],
     "avgoutput": 1
   }
-}
+},
 {
   "Name": "process_pac_fp_map",
   "Parameters": {
@@ -3145,7 +3140,7 @@ Here is the json template for every process.
     "analyze_type": 1,
     "doInterp": 1
   }
-}
+},
 {
   "Name": "process_pac_ir_dynamic",
   "Parameters": {
@@ -3180,7 +3175,7 @@ Here is the json template for every process.
     "label2": [],
     "avgoutput": 0
   }
-}
+},
 {
   "Name": "process_pac_simulate",
   "Parameters": {
@@ -3195,14 +3190,14 @@ Here is the json template for every process.
     "cycle": 0.5,
     "snr": 6
   }
-}
+},
 {
   "Name": "process_pac_sur_zscore",
   "Parameters": {
     "label": [],
     "usePhase": 0
   }
-}
+},
 {
   "Name": "process_pls",
   "Parameters": {
@@ -3212,7 +3207,7 @@ Here is the json template for every process.
     "label4": 500,
     "sensortypes": "MEG"
   }
-}
+},
 {
   "Name": "process_pls2",
   "Parameters": {
@@ -3222,7 +3217,7 @@ Here is the json template for every process.
     "label4": 500,
     "sensortypes": "MEG"
   }
-}
+},
 {
   "Name": "process_plv1",
   "Parameters": {
@@ -3258,7 +3253,7 @@ Here is the json template for every process.
     "avgwinoverlap": 50,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_plv1n",
   "Parameters": {
@@ -3292,7 +3287,7 @@ Here is the json template for every process.
     "avgwinoverlap": 50,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_plv2",
   "Parameters": {
@@ -3330,14 +3325,14 @@ Here is the json template for every process.
     "avgwinoverlap": 50,
     "outputmode": "input"
   }
-}
+},
 {
   "Name": "process_project_sources",
   "Parameters": {
     "label": [],
     "headmodeltype": "surface"
   }
-}
+},
 {
   "Name": "process_psd",
   "Parameters": {
@@ -3352,7 +3347,7 @@ Here is the json template for every process.
     "sep": [],
     "edit": []
   }
-}
+},
 {
   "Name": "process_psd_features",
   "Parameters": {
@@ -3370,19 +3365,19 @@ Here is the json template for every process.
     "sep": [],
     "edit": []
   }
-}
+},
 {
   "Name": "process_psth_per_channel",
   "Parameters": {
     "binsize": 0.05
   }
-}
+},
 {
   "Name": "process_psth_per_neuron",
   "Parameters": {
     "binsize": 0.05
   }
-}
+},
 {
   "Name": "process_pte1n",
   "Parameters": {
@@ -3410,18 +3405,18 @@ Here is the json template for every process.
     "normalized": 1,
     "outputmode": 1
   }
-}
+},
 {
   "Name": "process_rasterplot_per_neuron",
   "Parameters": {}
-}
+},
 {
   "Name": "process_remove_evoked",
   "Parameters": {
     "sensortypes": "MEG, EEG",
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_report_email",
   "Parameters": {
@@ -3431,20 +3426,20 @@ Here is the json template for every process.
     "reportfile": "current",
     "full": 1
   }
-}
+},
 {
   "Name": "process_resample",
   "Parameters": {
     "freq": 1000
   }
-}
+},
 {
   "Name": "process_scale",
   "Parameters": {
     "factor": 1,
     "sensortypes": "MEG, EEG"
   }
-}
+},
 {
   "Name": "process_segment_brainsuite",
   "Parameters": {
@@ -3452,7 +3447,7 @@ Here is the json template for every process.
     "subjectname": "",
     "nvertices": 15000
   }
-}
+},
 {
   "Name": "process_segment_cat12",
   "Parameters": {
@@ -3467,7 +3462,7 @@ Here is the json template for every process.
     "extramaps": 0,
     "cerebellum": 0
   }
-}
+},
 {
   "Name": "process_segment_fastsurfer",
   "Parameters": {
@@ -3482,7 +3477,7 @@ Here is the json template for every process.
     "defdir": [],
     "nvertices": 15000
   }
-}
+},
 {
   "Name": "process_segment_freesurfer",
   "Parameters": {
@@ -3493,7 +3488,7 @@ Here is the json template for every process.
     "delete": 0,
     "async": 0
   }
-}
+},
 {
   "Name": "process_segment_fsl",
   "Parameters": {
@@ -3502,7 +3497,7 @@ Here is the json template for every process.
     "erodeFactor": 0,
     "fillFactor": 2
   }
-}
+},
 {
   "Name": "process_select_files_data",
   "Parameters": {
@@ -3514,7 +3509,7 @@ Here is the json template for every process.
     "includecommon": 0,
     "outprocesstab": "no"
   }
-}
+},
 {
   "Name": "process_select_files_matrix",
   "Parameters": {
@@ -3526,7 +3521,7 @@ Here is the json template for every process.
     "includecommon": 0,
     "outprocesstab": "no"
   }
-}
+},
 {
   "Name": "process_select_files_results",
   "Parameters": {
@@ -3538,7 +3533,7 @@ Here is the json template for every process.
     "includecommon": 0,
     "outprocesstab": "no"
   }
-}
+},
 {
   "Name": "process_select_files_timefreq",
   "Parameters": {
@@ -3550,7 +3545,7 @@ Here is the json template for every process.
     "includecommon": 0,
     "outprocesstab": "no"
   }
-}
+},
 {
   "Name": "process_select_search",
   "Parameters": {
@@ -3558,7 +3553,7 @@ Here is the json template for every process.
     "includebad": 1,
     "outprocesstab": "no"
   }
-}
+},
 {
   "Name": "process_select_subset",
   "Parameters": {
@@ -3566,7 +3561,7 @@ Here is the json template for every process.
     "label1": [],
     "method": 1
   }
-}
+},
 {
   "Name": "process_select_tag",
   "Parameters": {
@@ -3576,7 +3571,7 @@ Here is the json template for every process.
     "label2": [],
     "select": 1
   }
-}
+},
 {
   "Name": "process_select_uniform",
   "Parameters": {
@@ -3588,7 +3583,7 @@ Here is the json template for every process.
     "label4": [],
     "method": 4
   }
-}
+},
 {
   "Name": "process_select_uniform2",
   "Parameters": {
@@ -3598,7 +3593,7 @@ Here is the json template for every process.
     "label3": [],
     "method": 4
   }
-}
+},
 {
   "Name": "process_set_comment",
   "Parameters": {
@@ -3606,7 +3601,7 @@ Here is the json template for every process.
     "isindex": 1,
     "label_warning": []
   }
-}
+},
 {
   "Name": "process_simulate_ar",
   "Parameters": {
@@ -3619,7 +3614,7 @@ Here is the json template for every process.
     "C": "C = eye(4,4);",
     "display": []
   }
-}
+},
 {
   "Name": "process_simulate_ar_spectra",
   "Parameters": {
@@ -3631,7 +3626,7 @@ Here is the json template for every process.
     "display": [],
     "coeff": []
   }
-}
+},
 {
   "Name": "process_simulate_dipoles",
   "Parameters": {
@@ -3718,7 +3713,7 @@ Here is the json template for every process.
     "savedip": 1,
     "savedata": 1
   }
-}
+},
 {
   "Name": "process_simulate_matrix",
   "Parameters": {
@@ -3728,7 +3723,7 @@ Here is the json template for every process.
     "srate": 1000,
     "matlab": "Data(1,:) = sin(2*pi*t);\nData(2,:) = cos(pi*t) + 1;"
   }
-}
+},
 {
   "Name": "process_simulate_recordings",
   "Parameters": {
@@ -3743,7 +3738,7 @@ Here is the json template for every process.
     "savedata": 1,
     "headmodel": []
   }
-}
+},
 {
   "Name": "process_simulate_sources",
   "Parameters": {
@@ -3754,7 +3749,7 @@ Here is the json template for every process.
     "isnoise": 0,
     "noise1": 0
   }
-}
+},
 {
   "Name": "process_sin_remove",
   "Parameters": {
@@ -3763,7 +3758,7 @@ Here is the json template for every process.
     "sensortypes": "MEG, EEG",
     "reverse": 1
   }
-}
+},
 {
   "Name": "process_snapshot",
   "Parameters": {
@@ -3787,7 +3782,7 @@ Here is the json template for every process.
     ],
     "Comment": ""
   }
-}
+},
 {
   "Name": "process_source_atlas",
   "Parameters": {
@@ -3795,13 +3790,13 @@ Here is the json template for every process.
     "atlas": [],
     "isnorm": 0
   }
-}
+},
 {
   "Name": "process_source_dspmscale",
   "Parameters": {
     "label1": []
   }
-}
+},
 {
   "Name": "process_source_flat",
   "Parameters": {
@@ -3820,7 +3815,7 @@ Here is the json template for every process.
       "RemoveDcOffset": "file"
     }
   }
-}
+},
 {
   "Name": "process_spgranger1",
   "Parameters": {
@@ -3854,7 +3849,7 @@ Here is the json template for every process.
     "maxfreq": 100,
     "outputmode": 1
   }
-}
+},
 {
   "Name": "process_spgranger1n",
   "Parameters": {
@@ -3884,7 +3879,7 @@ Here is the json template for every process.
     "maxfreq": 100,
     "outputmode": 1
   }
-}
+},
 {
   "Name": "process_spgranger2",
   "Parameters": {
@@ -3918,7 +3913,7 @@ Here is the json template for every process.
     "maxfreq": 100,
     "outputmode": 1
   }
-}
+},
 {
   "Name": "process_spike_field_coherence",
   "Parameters": {
@@ -3929,7 +3924,7 @@ Here is the json template for every process.
     "sensortypes": "EEG, SEEG",
     "parallel": 0
   }
-}
+},
 {
   "Name": "process_spike_triggered_average",
   "Parameters": {
@@ -3939,7 +3934,7 @@ Here is the json template for every process.
     ],
     "parallel": 0
   }
-}
+},
 {
   "Name": "process_spikesorting_kilosort",
   "Parameters": {
@@ -3952,7 +3947,7 @@ Here is the json template for every process.
     "edit_help": [],
     "warning": []
   }
-}
+},
 {
   "Name": "process_spikesorting_ultramegasort2000",
   "Parameters": {
@@ -3968,7 +3963,7 @@ Here is the json template for every process.
     "edit_help": [],
     "warning": []
   }
-}
+},
 {
   "Name": "process_spikesorting_waveclus",
   "Parameters": {
@@ -3982,7 +3977,7 @@ Here is the json template for every process.
     "edit_help": [],
     "warning": []
   }
-}
+},
 {
   "Name": "process_spiking_phase_locking",
   "Parameters": {
@@ -3993,14 +3988,14 @@ Here is the json template for every process.
     ],
     "phaseBin": 30
   }
-}
+},
 {
   "Name": "process_split_raw_file",
   "Parameters": {
     "eventname": "",
     "keepbadsegments": 0
   }
-}
+},
 {
   "Name": "process_sprint",
   "Parameters": {
@@ -4027,7 +4022,7 @@ Here is the json template for every process.
     "maxtime": 6,
     "minnear": 3
   }
-}
+},
 {
   "Name": "process_ssmooth",
   "Parameters": {
@@ -4036,7 +4031,7 @@ Here is the json template for every process.
     "label2": [],
     "method": "geodesic_dist"
   }
-}
+},
 {
   "Name": "process_ssmooth_surfstat",
   "Parameters": {
@@ -4045,7 +4040,7 @@ Here is the json template for every process.
     "label": [],
     "method": "before_2023"
   }
-}
+},
 {
   "Name": "process_ssp",
   "Parameters": {
@@ -4067,7 +4062,7 @@ Here is the json template for every process.
     "example": [],
     "select": 1
   }
-}
+},
 {
   "Name": "process_ssp2",
   "Parameters": {
@@ -4092,7 +4087,7 @@ Here is the json template for every process.
     "example": [],
     "select": 1
   }
-}
+},
 {
   "Name": "process_ssp2_ecg",
   "Parameters": {
@@ -4102,7 +4097,7 @@ Here is the json template for every process.
     "usessp": 1,
     "select": 1
   }
-}
+},
 {
   "Name": "process_ssp2_eog",
   "Parameters": {
@@ -4112,13 +4107,13 @@ Here is the json template for every process.
     "usessp": 1,
     "select": 1
   }
-}
+},
 {
   "Name": "process_ssp_apply",
   "Parameters": {
     "label1": []
   }
-}
+},
 {
   "Name": "process_ssp_ecg",
   "Parameters": {
@@ -4127,7 +4122,7 @@ Here is the json template for every process.
     "usessp": 1,
     "select": 1
   }
-}
+},
 {
   "Name": "process_ssp_eog",
   "Parameters": {
@@ -4136,21 +4131,21 @@ Here is the json template for every process.
     "usessp": 1,
     "select": 1
   }
-}
+},
 {
   "Name": "process_stdchan",
   "Parameters": {
     "warning": [],
     "method": 1
   }
-}
+},
 {
   "Name": "process_stdrow",
   "Parameters": {
     "method": 1,
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_stdtime",
   "Parameters": {
@@ -4158,7 +4153,7 @@ Here is the json template for every process.
     "method": "spline",
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_stdtime2",
   "Parameters": {
@@ -4166,7 +4161,7 @@ Here is the json template for every process.
     "method": "spline",
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_swap_headcoils",
   "Parameters": {
@@ -4175,7 +4170,7 @@ Here is the json template for every process.
     "Re": 0,
     "reverse": 0
   }
-}
+},
 {
   "Name": "process_sync_recordings",
   "Parameters": {
@@ -4184,7 +4179,7 @@ Here is the json template for every process.
     "method_title": [],
     "method": "xcorr"
   }
-}
+},
 {
   "Name": "process_test_baseline",
   "Parameters": {
@@ -4206,13 +4201,13 @@ Here is the json template for every process.
     "test_type": "ttest_baseline",
     "tail": "two"
   }
-}
+},
 {
   "Name": "process_test_conjunction",
   "Parameters": {
     "label": []
   }
-}
+},
 {
   "Name": "process_test_normative",
   "Parameters": {
@@ -4224,7 +4219,7 @@ Here is the json template for every process.
     "freqrange": [],
     "freqbands": []
   }
-}
+},
 {
   "Name": "process_test_parametric1",
   "Parameters": {
@@ -4246,7 +4241,7 @@ Here is the json template for every process.
     "test_type": "ttest_onesample",
     "tail": "two"
   }
-}
+},
 {
   "Name": "process_test_parametric2",
   "Parameters": {
@@ -4269,7 +4264,7 @@ Here is the json template for every process.
     "test_type": "ttest_equal",
     "tail": "two"
   }
-}
+},
 {
   "Name": "process_test_parametric2p",
   "Parameters": {
@@ -4291,7 +4286,7 @@ Here is the json template for every process.
     "test_type": "ttest_paired",
     "tail": "two"
   }
-}
+},
 {
   "Name": "process_test_permutation2",
   "Parameters": {
@@ -4316,7 +4311,7 @@ Here is the json template for every process.
     "randomizations": 1000,
     "tail": "two"
   }
-}
+},
 {
   "Name": "process_test_permutation2p",
   "Parameters": {
@@ -4341,7 +4336,7 @@ Here is the json template for every process.
     "randomizations": 1000,
     "tail": "two"
   }
-}
+},
 {
   "Name": "process_tf_bands",
   "Parameters": {
@@ -4351,27 +4346,27 @@ Here is the json template for every process.
     "timebands": [],
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_tf_instfreq",
   "Parameters": {
     "ifmethod": 1,
     "augerl": 2
   }
-}
+},
 {
   "Name": "process_tf_measure",
   "Parameters": {
     "measure": 1
   }
-}
+},
 {
   "Name": "process_tf_norm",
   "Parameters": {
     "normalize": "multiply2020",
     "warning": []
   }
-}
+},
 {
   "Name": "process_threshold_percentile",
   "Parameters": {
@@ -4384,7 +4379,7 @@ Here is the json template for every process.
     "dim2": 1,
     "dim3": 0
   }
-}
+},
 {
   "Name": "process_timefreq",
   "Parameters": {
@@ -4395,7 +4390,7 @@ Here is the json template for every process.
     "normalize2020": 0,
     "normalize": "none"
   }
-}
+},
 {
   "Name": "process_timeoffset",
   "Parameters": {
@@ -4403,7 +4398,7 @@ Here is the json template for every process.
     "offset": 0,
     "overwrite": 0
   }
-}
+},
 {
   "Name": "process_tuning_curves",
   "Parameters": {
@@ -4415,24 +4410,23 @@ Here is the json template for every process.
       0.15
     ]
   }
-}
+},
 {
   "Name": "process_undo_megrefcoef",
   "Parameters": {
     "help": []
   }
-}
+},
 {
   "Name": "process_warp",
   "Parameters": {
     "usedefault": 2,
     "tolerance": 2
   }
-}
+},
 {
   "Name": "process_wdiff_ab",
   "Parameters": {
     "ttest_label": []
   }
-}
-```
+}]
