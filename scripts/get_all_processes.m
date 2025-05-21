@@ -22,7 +22,6 @@ function processes = get_all_processes()
 
 end
 
-
 function processes = get_process_from_directory(directory)
     processes = {};
     content = dir(directory);
